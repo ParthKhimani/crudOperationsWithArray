@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+}
+
+form {
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 50%;
+    margin: auto;
+}
+
+textarea,
+input,
+select {
+    display: block;
+    margin: 8px auto;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+
+textarea:hover,
+input:hover,
+select:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    background-color: aqua;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    background-color: antiquewhite;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}

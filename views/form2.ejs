@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <form action="/table2" method="post">
+        Full Name : <input type="text" name="Fname" value="<%= (arr.Fname) %>">
+        Email : <input type="email" name="email" value="<%= (arr.email) %>">
+        Date Of Birth : <input type="date" name="date" value="<%= (arr.date) %>">
+        Password : <input type="password" name="psw" value="<%= (arr.psw) %>">
+        Phone Number : <input type="number" name="num" value="<%= (arr.num) %>">
+        Country : <select name="country" value="<%= (arr.country) %>">
+            <option value="0">-Select-</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="UK">UK</option>
+            <option value="Germeny">Germeny</option>
+        </select>
+        Address : <textarea name="address" cols="45" rows="5"></textarea>
+        <button type="submit">Submit</button>
+        <input type="hidden" value = "<%= index %>" name="index">
+    </form>
+</body>
+
+</html>
